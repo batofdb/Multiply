@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961E1EBC3E32BB54C2DCB3B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CF965890D1144351E6E88A /* libPods.a */; };
 		A079EB841BB9DC8B00E35D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB831BB9DC8B00E35D66 /* main.m */; };
 		A079EB871BB9DC8B00E35D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB861BB9DC8B00E35D66 /* AppDelegate.m */; };
 		A079EB8A1BB9DC8B00E35D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB891BB9DC8B00E35D66 /* ViewController.m */; };
 		A079EB8D1BB9DC8B00E35D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A079EB8B1BB9DC8B00E35D66 /* Main.storyboard */; };
 		A079EB8F1BB9DC8B00E35D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A079EB8E1BB9DC8B00E35D66 /* Assets.xcassets */; };
-		A079EB921BB9DC8B00E35D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A079EB901BB9DC8B00E35D66 /* LaunchScreen.storyboard */; };
 		A079EB9D1BB9DC8B00E35D66 /* MultiplyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB9C1BB9DC8B00E35D66 /* MultiplyTests.m */; };
 		A079EBA81BB9DC8B00E35D66 /* MultiplyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EBA71BB9DC8B00E35D66 /* MultiplyUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CF965890D1144351E6E88A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD76BAFA0A34887E0E13CBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A079EB7F1BB9DC8B00E35D66 /* Multiply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A079EB831BB9DC8B00E35D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A079EB851BB9DC8B00E35D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 		A079EB891BB9DC8B00E35D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A079EB8C1BB9DC8B00E35D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A079EB8E1BB9DC8B00E35D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A079EB911BB9DC8B00E35D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A079EB931BB9DC8B00E35D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A079EB981BB9DC8B00E35D66 /* MultiplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A079EB9C1BB9DC8B00E35D66 /* MultiplyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyTests.m; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		A079EBA31BB9DC8B00E35D66 /* MultiplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A079EBA71BB9DC8B00E35D66 /* MultiplyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyUITests.m; sourceTree = "<group>"; };
 		A079EBA91BB9DC8B00E35D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0973CDB4A83C73A0416CEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961E1EBC3E32BB54C2DCB3B4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BD48A62EB1AAFA188CA2361 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD76BAFA0A34887E0E13CBB /* Pods.debug.xcconfig */,
+				DA0973CDB4A83C73A0416CEA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AEE43734BC92664CFD033DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CF965890D1144351E6E88A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A079EB761BB9DC8B00E35D66 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				A079EB9B1BB9DC8B00E35D66 /* MultiplyTests */,
 				A079EBA61BB9DC8B00E35D66 /* MultiplyUITests */,
 				A079EB801BB9DC8B00E35D66 /* Products */,
+				1BD48A62EB1AAFA188CA2361 /* Pods */,
+				9AEE43734BC92664CFD033DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,7 +129,6 @@
 				A079EB891BB9DC8B00E35D66 /* ViewController.m */,
 				A079EB8B1BB9DC8B00E35D66 /* Main.storyboard */,
 				A079EB8E1BB9DC8B00E35D66 /* Assets.xcassets */,
-				A079EB901BB9DC8B00E35D66 /* LaunchScreen.storyboard */,
 				A079EB931BB9DC8B00E35D66 /* Info.plist */,
 				A079EB821BB9DC8B00E35D66 /* Supporting Files */,
 			);
@@ -147,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A079EBAC1BB9DC8C00E35D66 /* Build configuration list for PBXNativeTarget "Multiply" */;
 			buildPhases = (
+				145C26131DD38D3FAFAE2E24 /* Check Pods Manifest.lock */,
 				A079EB7B1BB9DC8B00E35D66 /* Sources */,
 				A079EB7C1BB9DC8B00E35D66 /* Frameworks */,
 				A079EB7D1BB9DC8B00E35D66 /* Resources */,
+				0134E7B6168A8F63D254CB5E /* Embed Pods Frameworks */,
+				45913FFB4C6B8DA66CF4EC69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +231,7 @@
 				TargetAttributes = {
 					A079EB7E1BB9DC8B00E35D66 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = H9K6VY5R2A;
 					};
 					A079EB971BB9DC8B00E35D66 = {
 						CreatedOnToolsVersion = 7.0;
@@ -243,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A079EB921BB9DC8B00E35D66 /* LaunchScreen.storyboard in Resources */,
 				A079EB8F1BB9DC8B00E35D66 /* Assets.xcassets in Resources */,
 				A079EB8D1BB9DC8B00E35D66 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +288,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0134E7B6168A8F63D254CB5E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		145C26131DD38D3FAFAE2E24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45913FFB4C6B8DA66CF4EC69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A079EB7B1BB9DC8B00E35D66 /* Sources */ = {
@@ -314,14 +386,6 @@
 				A079EB8C1BB9DC8B00E35D66 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A079EB901BB9DC8B00E35D66 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A079EB911BB9DC8B00E35D66 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,23 +473,35 @@
 		};
 		A079EBAD1BB9DC8C00E35D66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD76BAFA0A34887E0E13CBB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Multiply/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rajiv-Ramaiah.Multiply";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		A079EBAE1BB9DC8C00E35D66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0973CDB4A83C73A0416CEA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Multiply/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rajiv-Ramaiah.Multiply";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -496,6 +572,7 @@
 				A079EBAE1BB9DC8C00E35D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A079EBAF1BB9DC8C00E35D66 /* Build configuration list for PBXNativeTarget "MultiplyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +581,7 @@
 				A079EBB11BB9DC8C00E35D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A079EBB21BB9DC8C00E35D66 /* Build configuration list for PBXNativeTarget "MultiplyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +590,7 @@
 				A079EBB41BB9DC8C00E35D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

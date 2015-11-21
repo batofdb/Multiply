@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E236FAB3661AA63DEAC846DB2E7ED8 /* UIView+JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A603853F5850DD93A9489B798EE192A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		20E5C5FF603FF14A60AFEDFC1EE34B03 /* Pods-MultiplyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F290B92C70F6A3C2F9D186E5E1D2FD /* Pods-MultiplyTests-dummy.m */; };
+		2FBD94D36986667D29E31C32F6C6EAF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		33D18B4DF750B48FD67AA803F9ED7629 /* JHChainableAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */; };
+		5680EA35619DAEB49C16F818180183F7 /* JHKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */; };
+		5D6DC6D5B468CEBECCD3D16B970FD2B4 /* UIView+JHChainableAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */; };
+		638E7294D6B895DCCD6FB941FC965B80 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF51BE9D28D2D08B70422DDD43D585 /* Pods-dummy.m */; };
+		7905A53604A3B356120198739BA9A880 /* Pods-Multiply-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D7E9AC7EA8391368C3AAF3EDFA1BF5 /* Pods-Multiply-dummy.m */; };
+		7D1FA01A7B0814690CB7F0B29EE01B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7FCA10F62ED37C5F288AB90A2BFB7957 /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B73194CAE17AF3835E690D7FA02D35D /* JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8DEA5BFC078628B8DB96F77B41D270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D634222480BD7853BB468E1BEFE2B790 /* Pods-MultiplyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 592FDA0CA5F6A1426ABD2DCBECE082CF /* Pods-MultiplyUITests-dummy.m */; };
+		DC613E61253547229724CAE9A924F40D /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */; };
+		DC6CBDEDCDCBDAF59F0AFA4BA9480C0B /* JHKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7828069BC78E0DE49CAE53EF8270E66 /* JHChainableBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05F99370D9835B4AE4DFA09AA2F2D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B56FB1EC3E16F7D1E48E9EA5DA88EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27C9AB311EE00D38DCF3118AFEBA695;
+			remoteInfo = JHChainableAnimations;
+		};
+		1FED84107E441587E661DA975BAFFE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27C9AB311EE00D38DCF3118AFEBA695;
+			remoteInfo = JHChainableAnimations;
+		};
+		5E072DB7B9901BCC816F8A20E33F6525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27C9AB311EE00D38DCF3118AFEBA695;
+			remoteInfo = JHChainableAnimations;
+		};
+		B36A0697D6AEAF6E927279B40065F00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27C9AB311EE00D38DCF3118AFEBA695;
+			remoteInfo = JHChainableAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06765CF50082F6C8CC9AA7305B062396 /* Pods-Multiply-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multiply-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableAnimations.h; path = JHChainableAnimations/JHChainableAnimations.h; sourceTree = "<group>"; };
+		0B39986D47FCD97B82AF4763AE360C03 /* libPods-Multiply.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Multiply.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		125A23A2D9AE98E0DB55A213E9C50C9F /* Pods-MultiplyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiplyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EC9DC249CC56E954294971EE8EB2932 /* Pods-MultiplyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		281FB3BBB05B07D21EDD6B498BA76BBD /* libPods-MultiplyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiplyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JHChainableAnimations.h"; path = "JHChainableAnimations/UIView+JHChainableAnimations.h"; sourceTree = "<group>"; };
+		34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSBKeyframeAnimationFunctions.h; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		3B363DF66CBB53686C5B7370CB095C07 /* Pods-Multiply-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiply-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41F290B92C70F6A3C2F9D186E5E1D2FD /* Pods-MultiplyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiplyTests-dummy.m"; sourceTree = "<group>"; };
+		42C4E40352CF70D71A39EA0FD99D9A8C /* JHChainableAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHChainableAnimations-prefix.pch"; sourceTree = "<group>"; };
+		592FDA0CA5F6A1426ABD2DCBECE082CF /* Pods-MultiplyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiplyUITests-dummy.m"; sourceTree = "<group>"; };
+		5B71D35CE0DCCA8B5DC08A31883826DF /* Pods-Multiply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiply.release.xcconfig"; sourceTree = "<group>"; };
+		5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableBlocks.h; path = JHChainableAnimations/JHChainableBlocks.h; sourceTree = "<group>"; };
+		694EDD258F5E1696052A6D12E0B1F0EC /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		698D628A3CC86AB5F04BDDE614016717 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		69B610895CF8407C5148BD2A39A3FE40 /* Pods-Multiply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiply.debug.xcconfig"; sourceTree = "<group>"; };
+		6A097B608EC3AF798A8C73DBC933EBE7 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77D7E9AC7EA8391368C3AAF3EDFA1BF5 /* Pods-Multiply-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Multiply-dummy.m"; sourceTree = "<group>"; };
+		7AF5AB5A3E226223F8BED0231B881D5D /* Pods-MultiplyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiplyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84BF51BE9D28D2D08B70422DDD43D585 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8DB9EDC4AE17E213C47D5E02960A3FBD /* libJHChainableAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJHChainableAnimations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F254A79AB3AA81C7E47CAE37B26289 /* Pods-Multiply-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multiply-frameworks.sh"; sourceTree = "<group>"; };
+		968F45072D71CD6FD903FAC7106F9051 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		9BC97A843FDF34147AC891AF2FBD3CE6 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKeyframeAnimation.h; path = JHChainableAnimations/JHKeyframeAnimation.h; sourceTree = "<group>"; };
+		A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JHChainableAnimations.m"; path = "JHChainableAnimations/UIView+JHChainableAnimations.m"; sourceTree = "<group>"; };
+		A4C8F64B1C9E05A8F844D45D46D2D05F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93F67AFF9C29C7ADE4315F288078E6A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		AF41EE8ED18631EF4AADD2FDCF9421A3 /* Pods-MultiplyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B29587826BFA668398AE667E78C05F81 /* Pods-MultiplyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplyUITests-resources.sh"; sourceTree = "<group>"; };
+		B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = NSBKeyframeAnimationFunctions.c; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		BA3A69ED0603FCB757D9ED78482CC9AA /* Pods-MultiplyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiplyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC061721352A9D410423CFFB9B83CB73 /* Pods-Multiply-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multiply-resources.sh"; sourceTree = "<group>"; };
+		BF69F037BCD748FD614BCA006E8F3C6E /* Pods-MultiplyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C53C9465BB629CEBBD48C22AB9ABF545 /* libPods-MultiplyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiplyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C582C2DEA6145371CB9027A736A134BE /* Pods-MultiplyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiplyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHChainableAnimations-dummy.m"; sourceTree = "<group>"; };
+		CC1DD20E31E3A9685423419661BA014E /* Pods-MultiplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD092EDCDAE4483F6C8BA551A61B8A81 /* Pods-MultiplyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D310A58F201A1464EA6607079F4639E1 /* Pods-MultiplyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplyTests-frameworks.sh"; sourceTree = "<group>"; };
+		DFD5E2E0541FF4E5FB318A271FB6A8C5 /* Pods-MultiplyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplyTests-resources.sh"; sourceTree = "<group>"; };
+		EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHChainableAnimations.xcconfig; sourceTree = "<group>"; };
+		F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHKeyframeAnimation.m; path = JHChainableAnimations/JHKeyframeAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136009E72E4E2B8F8C37B2C9B203FA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8DEA5BFC078628B8DB96F77B41D270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298CD9D62F154B738453CA6FD2B05D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1FA01A7B0814690CB7F0B29EE01B94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C161BCE9D0FC0A8FD31F8668E2A9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A603853F5850DD93A9489B798EE192A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5691CD40E7E0DEBA63179AECE79114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD94D36986667D29E31C32F6C6EAF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FDCF7A6451B67B3FA4B12110AC61B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F99370D9835B4AE4DFA09AA2F2D00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF4DB95222A217960DC7AE31C4AE916 /* Pods-Multiply */ = {
+			isa = PBXGroup;
+			children = (
+				06765CF50082F6C8CC9AA7305B062396 /* Pods-Multiply-acknowledgements.markdown */,
+				3B363DF66CBB53686C5B7370CB095C07 /* Pods-Multiply-acknowledgements.plist */,
+				77D7E9AC7EA8391368C3AAF3EDFA1BF5 /* Pods-Multiply-dummy.m */,
+				93F254A79AB3AA81C7E47CAE37B26289 /* Pods-Multiply-frameworks.sh */,
+				BC061721352A9D410423CFFB9B83CB73 /* Pods-Multiply-resources.sh */,
+				69B610895CF8407C5148BD2A39A3FE40 /* Pods-Multiply.debug.xcconfig */,
+				5B71D35CE0DCCA8B5DC08A31883826DF /* Pods-Multiply.release.xcconfig */,
+			);
+			name = "Pods-Multiply";
+			path = "Target Support Files/Pods-Multiply";
+			sourceTree = "<group>";
+		};
+		39FD07D3C8A7095146F737BDF06A5292 /* Pods-MultiplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF5AB5A3E226223F8BED0231B881D5D /* Pods-MultiplyUITests-acknowledgements.markdown */,
+				125A23A2D9AE98E0DB55A213E9C50C9F /* Pods-MultiplyUITests-acknowledgements.plist */,
+				592FDA0CA5F6A1426ABD2DCBECE082CF /* Pods-MultiplyUITests-dummy.m */,
+				1EC9DC249CC56E954294971EE8EB2932 /* Pods-MultiplyUITests-frameworks.sh */,
+				B29587826BFA668398AE667E78C05F81 /* Pods-MultiplyUITests-resources.sh */,
+				CD092EDCDAE4483F6C8BA551A61B8A81 /* Pods-MultiplyUITests.debug.xcconfig */,
+				AF41EE8ED18631EF4AADD2FDCF9421A3 /* Pods-MultiplyUITests.release.xcconfig */,
+			);
+			name = "Pods-MultiplyUITests";
+			path = "Target Support Files/Pods-MultiplyUITests";
+			sourceTree = "<group>";
+		};
+		5DB0F2B229F2D332E45AD61E7BBC0FD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */,
+				C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */,
+				42C4E40352CF70D71A39EA0FD99D9A8C /* JHChainableAnimations-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JHChainableAnimations";
+			sourceTree = "<group>";
+		};
+		6AD0A78D5A49681357364CBEA1DA8135 /* Pods-MultiplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C582C2DEA6145371CB9027A736A134BE /* Pods-MultiplyTests-acknowledgements.markdown */,
+				BA3A69ED0603FCB757D9ED78482CC9AA /* Pods-MultiplyTests-acknowledgements.plist */,
+				41F290B92C70F6A3C2F9D186E5E1D2FD /* Pods-MultiplyTests-dummy.m */,
+				D310A58F201A1464EA6607079F4639E1 /* Pods-MultiplyTests-frameworks.sh */,
+				DFD5E2E0541FF4E5FB318A271FB6A8C5 /* Pods-MultiplyTests-resources.sh */,
+				BF69F037BCD748FD614BCA006E8F3C6E /* Pods-MultiplyTests.debug.xcconfig */,
+				CC1DD20E31E3A9685423419661BA014E /* Pods-MultiplyTests.release.xcconfig */,
+			);
+			name = "Pods-MultiplyTests";
+			path = "Target Support Files/Pods-MultiplyTests";
+			sourceTree = "<group>";
+		};
+		75FD62F3E07DE7D785A7656FFC89541B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A097B608EC3AF798A8C73DBC933EBE7 /* Pods-acknowledgements.markdown */,
+				694EDD258F5E1696052A6D12E0B1F0EC /* Pods-acknowledgements.plist */,
+				84BF51BE9D28D2D08B70422DDD43D585 /* Pods-dummy.m */,
+				968F45072D71CD6FD903FAC7106F9051 /* Pods-frameworks.sh */,
+				9BC97A843FDF34147AC891AF2FBD3CE6 /* Pods-resources.sh */,
+				A93F67AFF9C29C7ADE4315F288078E6A /* Pods.debug.xcconfig */,
+				698D628A3CC86AB5F04BDDE614016717 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7D0D566DF3FCEA3B7F5D927A5B506407 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FD62F3E07DE7D785A7656FFC89541B /* Pods */,
+				0BF4DB95222A217960DC7AE31C4AE916 /* Pods-Multiply */,
+				6AD0A78D5A49681357364CBEA1DA8135 /* Pods-MultiplyTests */,
+				39FD07D3C8A7095146F737BDF06A5292 /* Pods-MultiplyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D178C52DF9A9553439E2C1804D08700A /* Pods */,
+				82E549E8E55F3EA6C5058F3C0A29AD04 /* Products */,
+				7D0D566DF3FCEA3B7F5D927A5B506407 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82E549E8E55F3EA6C5058F3C0A29AD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB9EDC4AE17E213C47D5E02960A3FBD /* libJHChainableAnimations.a */,
+				A4C8F64B1C9E05A8F844D45D46D2D05F /* libPods.a */,
+				0B39986D47FCD97B82AF4763AE360C03 /* libPods-Multiply.a */,
+				C53C9465BB629CEBBD48C22AB9ABF545 /* libPods-MultiplyTests.a */,
+				281FB3BBB05B07D21EDD6B498BA76BBD /* libPods-MultiplyUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D178C52DF9A9553439E2C1804D08700A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9C22A82FA286CADEFD9D2232759A275 /* JHChainableAnimations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C22A82FA286CADEFD9D2232759A275 /* JHChainableAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */,
+				5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */,
+				A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */,
+				F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */,
+				B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */,
+				34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */,
+				2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */,
+				A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */,
+				5DB0F2B229F2D332E45AD61E7BBC0FD1 /* Support Files */,
+			);
+			path = JHChainableAnimations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0BF402CE206C7FF03D2F49C0C43EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73194CAE17AF3835E690D7FA02D35D /* JHChainableAnimations.h in Headers */,
+				E7828069BC78E0DE49CAE53EF8270E66 /* JHChainableBlocks.h in Headers */,
+				DC6CBDEDCDCBDAF59F0AFA4BA9480C0B /* JHKeyframeAnimation.h in Headers */,
+				7FCA10F62ED37C5F288AB90A2BFB7957 /* NSBKeyframeAnimationFunctions.h in Headers */,
+				08E236FAB3661AA63DEAC846DB2E7ED8 /* UIView+JHChainableAnimations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		590503A4808586B51F34459B7AC058F8 /* Pods-MultiplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269EA8309F7C10BFC971E311DC1AA35F /* Build configuration list for PBXNativeTarget "Pods-MultiplyTests" */;
+			buildPhases = (
+				FBA4E5023B9BA76AED70801062C3F6BB /* Sources */,
+				136009E72E4E2B8F8C37B2C9B203FA3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DE17F89D2A97734E8A4CAA3C0F252F /* PBXTargetDependency */,
+			);
+			name = "Pods-MultiplyTests";
+			productName = "Pods-MultiplyTests";
+			productReference = C53C9465BB629CEBBD48C22AB9ABF545 /* libPods-MultiplyTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		753874500E886143530C9894ED174CE7 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6717E726901F4AE4A7EA6E45D5E017D6 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				EE47B86396366DCFBA90097086880A10 /* Sources */,
+				2C161BCE9D0FC0A8FD31F8668E2A9A3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193A6ACBECCBD6FB0690F7181C9F7365 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A4C8F64B1C9E05A8F844D45D46D2D05F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5327936EEE24D9BB597D54F3A683F63 /* Pods-MultiplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED4DBD82FB8390EE32C0E70AD0A217F /* Build configuration list for PBXNativeTarget "Pods-MultiplyUITests" */;
+			buildPhases = (
+				ECEA65B01DC7D177D802B9F4DBF28B95 /* Sources */,
+				298CD9D62F154B738453CA6FD2B05D76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33BDDBB247D47174EE2B214B4C7025F /* PBXTargetDependency */,
+			);
+			name = "Pods-MultiplyUITests";
+			productName = "Pods-MultiplyUITests";
+			productReference = 281FB3BBB05B07D21EDD6B498BA76BBD /* libPods-MultiplyUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E88DF6D0C3214C2CC25F74557D00BAD7 /* Pods-Multiply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B648050EAD0AF4C4C07AB3BB7E1255 /* Build configuration list for PBXNativeTarget "Pods-Multiply" */;
+			buildPhases = (
+				C6DE319A887109A70B176E4D54A1A2FF /* Sources */,
+				D9FDCF7A6451B67B3FA4B12110AC61B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29F0E2D2D116E02BDCD7C0D52AC16ECE /* PBXTargetDependency */,
+			);
+			name = "Pods-Multiply";
+			productName = "Pods-Multiply";
+			productReference = 0B39986D47FCD97B82AF4763AE360C03 /* libPods-Multiply.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF8722EEFF2D3800415714656F9B1C5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */;
+			buildPhases = (
+				DC1148C175E4898546ED513F9A3CAA49 /* Sources */,
+				9E5691CD40E7E0DEBA63179AECE79114 /* Frameworks */,
+				0B0BF402CE206C7FF03D2F49C0C43EE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHChainableAnimations;
+			productName = JHChainableAnimations;
+			productReference = 8DB9EDC4AE17E213C47D5E02960A3FBD /* libJHChainableAnimations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82E549E8E55F3EA6C5058F3C0A29AD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */,
+				753874500E886143530C9894ED174CE7 /* Pods */,
+				E88DF6D0C3214C2CC25F74557D00BAD7 /* Pods-Multiply */,
+				590503A4808586B51F34459B7AC058F8 /* Pods-MultiplyTests */,
+				E5327936EEE24D9BB597D54F3A683F63 /* Pods-MultiplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6DE319A887109A70B176E4D54A1A2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7905A53604A3B356120198739BA9A880 /* Pods-Multiply-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1148C175E4898546ED513F9A3CAA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D18B4DF750B48FD67AA803F9ED7629 /* JHChainableAnimations-dummy.m in Sources */,
+				5680EA35619DAEB49C16F818180183F7 /* JHKeyframeAnimation.m in Sources */,
+				DC613E61253547229724CAE9A924F40D /* NSBKeyframeAnimationFunctions.c in Sources */,
+				5D6DC6D5B468CEBECCD3D16B970FD2B4 /* UIView+JHChainableAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEA65B01DC7D177D802B9F4DBF28B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D634222480BD7853BB468E1BEFE2B790 /* Pods-MultiplyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE47B86396366DCFBA90097086880A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638E7294D6B895DCCD6FB941FC965B80 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA4E5023B9BA76AED70801062C3F6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E5C5FF603FF14A60AFEDFC1EE34B03 /* Pods-MultiplyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193A6ACBECCBD6FB0690F7181C9F7365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */;
+			targetProxy = B36A0697D6AEAF6E927279B40065F00A /* PBXContainerItemProxy */;
+		};
+		29F0E2D2D116E02BDCD7C0D52AC16ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */;
+			targetProxy = 1B56FB1EC3E16F7D1E48E9EA5DA88EA5 /* PBXContainerItemProxy */;
+		};
+		C9DE17F89D2A97734E8A4CAA3C0F252F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */;
+			targetProxy = 5E072DB7B9901BCC816F8A20E33F6525 /* PBXContainerItemProxy */;
+		};
+		D33BDDBB247D47174EE2B214B4C7025F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */;
+			targetProxy = 1FED84107E441587E661DA975BAFFE7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B7B59DE67300CFF59205CD00D7F4D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B71D35CE0DCCA8B5DC08A31883826DF /* Pods-Multiply.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0EC7B5BAF97268001BE42008F4E22DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B610895CF8407C5148BD2A39A3FE40 /* Pods-Multiply.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A63619B3B0F2D078297F85724D0B051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1DD20E31E3A9685423419661BA014E /* Pods-MultiplyTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C3579C31FE70658E1552E0F61673816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF41EE8ED18631EF4AADD2FDCF9421A3 /* Pods-MultiplyUITests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D87966AD4FE865FD723EAD1ED8DAFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD092EDCDAE4483F6C8BA551A61B8A81 /* Pods-MultiplyUITests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E363FAF4CD4C70AB3CBFB443C7D6187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4CA4091A5F7390068998540614A754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF69F037BCD748FD614BCA006E8F3C6E /* Pods-MultiplyTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71C1677BF23BFAE8D04D623AC8D4CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93F67AFF9C29C7ADE4315F288078E6A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A21A7A8C26791D4A9C80A13C852E087F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698D628A3CC86AB5F04BDDE614016717 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB227528D06D8C4B5BADC4899EC715C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269EA8309F7C10BFC971E311DC1AA35F /* Build configuration list for PBXNativeTarget "Pods-MultiplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4CA4091A5F7390068998540614A754 /* Debug */,
+				3A63619B3B0F2D078297F85724D0B051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6717E726901F4AE4A7EA6E45D5E017D6 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C1677BF23BFAE8D04D623AC8D4CD49 /* Debug */,
+				A21A7A8C26791D4A9C80A13C852E087F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED4DBD82FB8390EE32C0E70AD0A217F /* Build configuration list for PBXNativeTarget "Pods-MultiplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87966AD4FE865FD723EAD1ED8DAFC4 /* Debug */,
+				3C3579C31FE70658E1552E0F61673816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B648050EAD0AF4C4C07AB3BB7E1255 /* Build configuration list for PBXNativeTarget "Pods-Multiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC7B5BAF97268001BE42008F4E22DA3 /* Debug */,
+				0B7B59DE67300CFF59205CD00D7F4D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF8722EEFF2D3800415714656F9B1C5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB227528D06D8C4B5BADC4899EC715C7 /* Debug */,
+				4E363FAF4CD4C70AB3CBFB443C7D6187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
