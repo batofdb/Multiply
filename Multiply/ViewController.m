@@ -13,7 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 
-@property bool isCalcPressed;
+@property bool isOperationPressed;
 @property NSString *operationStr;
 
 @property CalculatorManager *calculatorManager;
@@ -23,6 +23,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    self.isOperationPressed = NO;
     [super viewDidLoad];
     self.calculatorManager = [CalculatorManager new];
     self.answerLabel.text = @"0";
@@ -58,7 +59,7 @@
 
     if (self.calculatorManager.operandOne == 0) {
         self.calculatorManager.operandOne = [self.answerLabel.text doubleValue];
-        self.answerLabel.text = @"0";
+
     } else {
         if (self.calculatorManager.operandTwo == 0) {
             self.calculatorManager.operandTwo = [self.answerLabel.text doubleValue];
@@ -71,17 +72,32 @@
     }
     self.operationStr = sender.titleLabel.text;
     NSLog(@"operandOne: %f operandTwo: %f",self.calculatorManager.operandOne, self.calculatorManager.operandTwo);
+
+    self.isOperationPressed = YES;
 }
 
 
 
 - (IBAction)numberButtonPressed:(UIButton *)sender {
+    if (self.isOperationPressed)
+        self.answerLabel.text = @"";
 
     if ([sender.titleLabel.text isEqualToString:@"Clr"])
     {
         self.calculatorManager.operandOne = 0.0f;
         self.calculatorManager.operandTwo = 0.0f;
         self.answerLabel.text = @"0";
+    } else if ([sender.titleLabel.text isEqualToString:@"+ / -"]) {
+
+        if ([self.answerLabel.text containsString:@"-"]) {
+            self.answerLabel.text = [self.answerLabel.text stringByReplacingOccurrencesOfString:@"-" withString:@""];
+        } else {
+            self.answerLabel.text = [@"-" stringByAppendingString:self.answerLabel.text];
+        }
+
+        self.calculatorManager.operandOne = 0;
+        self.calculatorManager.operandTwo = 0;
+
     } else {
         if ([self.answerLabel.text isEqualToString:@"0"]) {
             self.answerLabel.text = @"";
@@ -90,6 +106,7 @@
         NSLog(@"%@",[sender.titleLabel text]);
     }
 
+    self.isOperationPressed = NO;
 }
 
 
