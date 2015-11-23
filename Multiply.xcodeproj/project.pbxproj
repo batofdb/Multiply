@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47C16C0C1C014272004E5C00 /* CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C16C0B1C014272004E5C00 /* CalculatorManager.m */; };
 		961E1EBC3E32BB54C2DCB3B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CF965890D1144351E6E88A /* libPods.a */; };
 		A079EB841BB9DC8B00E35D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB831BB9DC8B00E35D66 /* main.m */; };
 		A079EB871BB9DC8B00E35D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A079EB861BB9DC8B00E35D66 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		04CF965890D1144351E6E88A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C16C0A1C014271004E5C00 /* CalculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorManager.h; sourceTree = "<group>"; };
+		47C16C0B1C014272004E5C00 /* CalculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorManager.m; sourceTree = "<group>"; };
 		9AD76BAFA0A34887E0E13CBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A079EB7F1BB9DC8B00E35D66 /* Multiply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A079EB831BB9DC8B00E35D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				A079EB8E1BB9DC8B00E35D66 /* Assets.xcassets */,
 				A079EB931BB9DC8B00E35D66 /* Info.plist */,
 				A079EB821BB9DC8B00E35D66 /* Supporting Files */,
+				47C16C0A1C014271004E5C00 /* CalculatorManager.h */,
+				47C16C0B1C014272004E5C00 /* CalculatorManager.m */,
 			);
 			path = Multiply;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				A079EB8A1BB9DC8B00E35D66 /* ViewController.m in Sources */,
 				A079EB871BB9DC8B00E35D66 /* AppDelegate.m in Sources */,
 				A079EB841BB9DC8B00E35D66 /* main.m in Sources */,
+				47C16C0C1C014272004E5C00 /* CalculatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

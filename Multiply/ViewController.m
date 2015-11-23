@@ -7,140 +7,92 @@
 //
 
 #import "ViewController.h"
+#import "CalculatorManager.h"
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UILabel *multiplierLabel;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
-@property (weak, nonatomic) IBOutlet UISlider *sliderValue;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *operatorSegementedControl;
-@property (weak, nonatomic) IBOutlet UILabel *input;
-@property (weak, nonatomic) IBOutlet UILabel *operatorLabel;
+
 @property bool isCalcPressed;
+@property NSString *operationStr;
+
+@property CalculatorManager *calculatorManager;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.input.text = @"0";
-    self.isCalcPressed = NO;
-    self.operatorLabel.text = @"Times";
-
+    self.calculatorManager = [CalculatorManager new];
+    self.answerLabel.text = @"0";
 }
 
+
+- (NSString *)formatAnswer {
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterDecimalStyle;
+    formatter.maximumFractionDigits = 20;
+    return [NSString stringWithFormat:@"%@", [formatter stringFromNumber:[NSNumber numberWithDouble:self.calculatorManager.answer]]];
+}
 
 - (IBAction)onCalculateButtonPressed:(UIButton *)sender {
 
-    int number = [self.input.text intValue];
-    int multiplier = [self.multiplierLabel.text intValue];
-    double result = 0;
-
-
-    if (self.operatorSegementedControl.selectedSegmentIndex == 0)
-    {
-        result = number * multiplier;
+    if (self.calculatorManager.operandOne == 0) {
+        self.calculatorManager.operandOne = [self.answerLabel.text doubleValue];
+    } else {
+        if (self.calculatorManager.operandTwo == 0) {
+        self.calculatorManager.operandTwo = [self.answerLabel.text doubleValue];
+        } else {
+            self.calculatorManager.operandOne = [self.answerLabel.text doubleValue];
+        }
     }
-    else if (self.operatorSegementedControl.selectedSegmentIndex == 1)
-    {
+    
+    [self.calculatorManager calculateAnswerWithOperation:self.operationStr];
 
-        result = (double)number / multiplier;
+    self.answerLabel.text = [self formatAnswer];
 
+}
+
+- (IBAction)onOperationButtonPressed:(UIButton *)sender {
+
+    if (self.calculatorManager.operandOne == 0) {
+        self.calculatorManager.operandOne = [self.answerLabel.text doubleValue];
+        self.answerLabel.text = @"0";
+    } else {
+        if (self.calculatorManager.operandTwo == 0) {
+            self.calculatorManager.operandTwo = [self.answerLabel.text doubleValue];
+        } else {
+            self.calculatorManager.operandOne = [self.answerLabel.text doubleValue];
+        }
+
+        [self.calculatorManager calculateAnswerWithOperation:[sender.titleLabel text]];
+        self.answerLabel.text = [self formatAnswer];
     }
-    else if (self.operatorSegementedControl.selectedSegmentIndex == 2){
-
-        result = number + multiplier;
-    }
-    else{
-        result = number - multiplier;
-    }
-
-    NSLog(@"%f",fmod(result,5));
-    if (fmod(result,5.0) == 0.000000 && fmod(result,3.0) ==0.000000){
-        self.answerLabel.text = @"Fizzbuzz";
-
-    }
-
-    else if (fmod(result,5.0) == 0.000000){
-        self.answerLabel.text = @"Buzz";
-    }
-
-    else if(fmod(result,3.0) == 0.000000){
-        self.answerLabel.text = @"Fizz";
-    }
-    else{
-    self.answerLabel.text = [NSString stringWithFormat:@"%.2f", result];
-    }
-    if (result >= 20){
-        self.view.backgroundColor = [UIColor colorWithRed:7.0f/255.0f
-                                                    green:40.0f/255.0f
-                                                     blue:107.0f/255.0f
-                                                    alpha:0.75f];
-    }
-    else {
-        self.view.backgroundColor = [UIColor colorWithRed:7.0f/255.0f
-                                                    green:40.0f/255.0f
-                                                     blue:107.0f/255.0f
-                                                    alpha:0.50f];
-    }
-
-
-
-    [self.view endEditing:YES];
-    self.isCalcPressed = YES;
-
+    self.operationStr = sender.titleLabel.text;
+    NSLog(@"operandOne: %f operandTwo: %f",self.calculatorManager.operandOne, self.calculatorManager.operandTwo);
 }
 
 
 
-- (IBAction)sliderValueChanged:(UISlider *)sender {
-    self.multiplierLabel.text = [NSString stringWithFormat:@"%i",(int)self.sliderValue.value];
-
-    self.view.backgroundColor = [UIColor colorWithRed:7.0f*self.sliderValue.value/255.0f
-                                                green:40.0f*self.sliderValue.value/255.0f
-                                                 blue:107.0f/255.0f
-                                                alpha:0.50f];
-
-}
 - (IBAction)numberButtonPressed:(UIButton *)sender {
 
     if ([sender.titleLabel.text isEqualToString:@"Clr"])
     {
-        self.input.text = @"0";
+        self.calculatorManager.operandOne = 0.0f;
+        self.calculatorManager.operandTwo = 0.0f;
         self.answerLabel.text = @"0";
-    }
-    else{
-        if ([self.input.text isEqualToString:@"0"])
-        {
-            self.input.text = @"";
-
-        }
-
-        self.input.text = [self.input.text stringByAppendingString:sender.titleLabel.text];
+    } else {
+        if ([self.answerLabel.text isEqualToString:@"0"]) {
+            self.answerLabel.text = @"";
+         }
+        self.answerLabel.text = [self.answerLabel.text stringByAppendingString:[sender.titleLabel text]];
+        NSLog(@"%@",[sender.titleLabel text]);
     }
 
 }
 
-- (IBAction)onOperatorButtonPressed:(UISegmentedControl *)sender {
-    if (sender.selectedSegmentIndex == 0)
-    {
-        self.operatorLabel.text = @"Times";
-    }
-    else if (sender.selectedSegmentIndex == 1)
-    {
-        self.operatorLabel.text = @"Divided By";
 
-
-    }
-    else if (sender.selectedSegmentIndex == 2){
-        self.operatorLabel.text = @"Plus";
-
-    }
-    else{
-        self.operatorLabel.text = @"Subtracted By";
-    }
-}
 
 
 
