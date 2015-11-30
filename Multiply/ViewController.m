@@ -15,6 +15,7 @@
 
 @property bool isOperationPressed;
 @property NSString *operationStr;
+@property (weak, nonatomic) IBOutlet UILabel *spelledOutAnswerLabel;
 
 @property CalculatorManager *calculatorManager;
 
@@ -27,6 +28,8 @@
     [super viewDidLoad];
     self.calculatorManager = [CalculatorManager new];
     self.answerLabel.text = @"0";
+    self.answerLabel.adjustsFontSizeToFitWidth = YES;
+    self.spelledOutAnswerLabel.adjustsFontSizeToFitWidth = YES;
 }
 
 
@@ -79,6 +82,7 @@
 
 
 - (IBAction)numberButtonPressed:(UIButton *)sender {
+    
     if (self.isOperationPressed)
         self.answerLabel.text = @"";
 
@@ -87,6 +91,7 @@
         self.calculatorManager.operandOne = 0.0f;
         self.calculatorManager.operandTwo = 0.0f;
         self.answerLabel.text = @"0";
+        self.spelledOutAnswerLabel.text = @"";
     } else if ([sender.titleLabel.text isEqualToString:@"+ / -"]) {
 
         if ([self.answerLabel.text containsString:@"-"]) {
@@ -98,18 +103,55 @@
         self.calculatorManager.operandOne = 0;
         self.calculatorManager.operandTwo = 0;
 
+    } else if ([sender.titleLabel.text isEqualToString:@"<"]) {
+
+        if (self.answerLabel.text.length > 0) {
+            NSString *str = [self.answerLabel.text substringToIndex:[self.answerLabel.text length] -1];
+            self.answerLabel.text = str;
+        }
+
+        if (self.answerLabel.text.length == 0) {
+            self.answerLabel.text = @"0";
+        }
+
+        [self updatedTextLabelWithButton:sender];
+        
     } else {
-        if ([self.answerLabel.text isEqualToString:@"0"]) {
-            self.answerLabel.text = @"";
-         }
-        self.answerLabel.text = [self.answerLabel.text stringByAppendingString:[sender.titleLabel text]];
-        NSLog(@"%@",[sender.titleLabel text]);
+        if (self.answerLabel.text.length < 14) {
+            if ([self.answerLabel.text isEqualToString:@"0"]) {
+                self.answerLabel.text = @"";
+             }
+
+            //Add animation layer
+            CATransition *animation = [CATransition animation];
+            animation.duration = 0.1;
+            animation.type = kCATransitionFade;
+            animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+            [self.answerLabel.layer addAnimation:animation forKey:@"changeTextTransition"];
+
+            self.answerLabel.text = [self.answerLabel.text stringByAppendingString:[sender.titleLabel text]];
+            
+            [self updatedTextLabelWithButton:sender];
+        }
+
     }
 
     self.isOperationPressed = NO;
 }
 
 
+- (void) updatedTextLabelWithButton: (UIButton *)sender {
+    //Change text
+    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    NSNumber *num = [f numberFromString:self.answerLabel.text];
+
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+    [numberFormatter setNumberStyle:NSNumberFormatterSpellOutStyle];
+    self.spelledOutAnswerLabel.text = [numberFormatter stringFromNumber:num];
+
+    NSLog(@"%@",[sender.titleLabel text]);
+}
 
 
 
